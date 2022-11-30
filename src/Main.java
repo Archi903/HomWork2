@@ -46,9 +46,24 @@ public class Main {
         System.out.println(frog);
     }
     public static void task3() {
+        System.out.println("Домашнее задание 3");
         var fighterWeight1 = 78.2;
         var fighterWeight2 = 82.7;
         var totalWeight = fighterWeight1 + fighterWeight2;
         System.out.println("Общий вес бойцов состовляет " + totalWeight);
+        System.out.println("Часть 2");
+        var weightDifferent = fighterWeight1 - fighterWeight2;
+        System.out.println("Разница в весе, 1 вариант " + weightDifferent);
+        var weightDifferent2 = (fighterWeight2 - fighterWeight1) % totalWeight;
+        System.out.println("Разница в весе, 1 вариант " + weightDifferent2);
+        System.out.println("Часть 3");
+        var workHours = 640;
+        var hoursForOne = 8;
+        var Workers = workHours / hoursForOne;
+        System.out.println("Всего работников в компании " + Workers + " человек");
+        Workers = Workers + 94;
+        var realHours = hoursForOne * Workers;
+        System.out.println("Если в компании работает " + Workers + " человек, то всего " + realHours +
+                " часов работы может быть поделено между сотрудниками");
     }
 }
