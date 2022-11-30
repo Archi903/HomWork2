@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         task1();
         task2();
+        task3();
     }
 
     public static void task1() {
@@ -43,5 +44,11 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
+    }
+    public static void task3() {
+        var fighterWeight1 = 78.2;
+        var fighterWeight2 = 82.7;
+        var totalWeight = fighterWeight1 + fighterWeight2;
+        System.out.println("Общий вес бойцов состовляет " + totalWeight);
     }
 }
