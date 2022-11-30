@@ -6,20 +6,21 @@ public class Main {
     }
 
     public static void task1() {
+        System.out.println("Домашнее задание 1");
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
-
+        System.out.println("Часть 2");
         dog = dog + 4;
         cat = cat + 4;
         paper = paper + 4;
         System.out.println(dog);
         System.out.println(cat);
         System.out.println(paper);
-
+        System.out.println("Часть 3");
         dog = dog - 3.5;
         cat = cat - 1.6;
         paper = paper - 7639;
@@ -52,9 +53,9 @@ public class Main {
         var totalWeight = fighterWeight1 + fighterWeight2;
         System.out.println("Общий вес бойцов состовляет " + totalWeight);
         System.out.println("Часть 2");
-        var weightDifferent = fighterWeight1 - fighterWeight2;
+        var weightDifferent = fighterWeight2 - fighterWeight1;
         System.out.println("Разница в весе, 1 вариант " + weightDifferent);
-        var weightDifferent2 = (fighterWeight2 - fighterWeight1) % totalWeight;
+        var weightDifferent2 = fighterWeight2 % fighterWeight1;
         System.out.println("Разница в весе, 1 вариант " + weightDifferent2);
         System.out.println("Часть 3");
         var workHours = 640;
@@ -64,6 +65,6 @@ public class Main {
         Workers = Workers + 94;
         var realHours = hoursForOne * Workers;
         System.out.println("Если в компании работает " + Workers + " человек, то всего " + realHours +
-                " часов работы может быть поделено между сотрудниками");
+                " часа работы может быть поделено между сотрудниками");
     }
 }
